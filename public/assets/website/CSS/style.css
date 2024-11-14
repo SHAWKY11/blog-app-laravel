@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* start Style */
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: linear-gradient(220deg, #303a52 0%, #1a1d2f 100%);
+    z-index: 454;
+}
+header nav ul a{
+    color: #fff;
+
+    font-weight: 600;
+    transition: 1s color ease-in;
+}
+
+
+header nav ul a:hover{
+    color: #3ed0c9;
+    font-weight: 600;
+}
+
+
+.banner{
+    height: 60vh;
+    background: linear-gradient(220deg, #303a52 0%, #1a1d2f 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    text-wrap: wrap;
+
+}
+.banner h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px 0 ;
+}
+.left{
+    width: 60% !important;
+}
+
+.left .card {
+    width: 100%;
+}
+.left .card h2{
+    color: #3c434f;
+    transition: 1s color ease-in-out;
+    cursor: pointer;
+
+
+}
+
+.left .card h2:hover{
+    color: #3ed0c9;
+
+}
+
+.right{
+    width: 35% !important;
+}
+
+
+.right  .seach input{
+    padding: 10px;
+
+}
+.right .seach div i{
+    right: 16px;
+    top: 13px;
+}
+.right ul li {
+    margin-bottom: 20px;
+
+}
+
+
+.right ul li a{
+
+
+    color: #3c434f ;
+    font-weight: 600;
+}
+.right ul li:hover a {
+    color: #3ed0c9;
+
+}
+.tags {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tags p{
+    width: fit-content;
+}
+footer .imagesFooter{
+    padding: 20px;
+}
+footer .imagesFooter img{
+    width: 100px;
+}
